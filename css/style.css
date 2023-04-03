@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.94);
+}
+h2 {
+    text-align: center;
+    position: relative;
+    color:white;
+    padding: 20px;
+}
+
+h2::after {
+    position: absolute;
+    content: '-*-!-*-!-*-!-*-!';
+}
+h2::before {
+    position: absolute;
+    content: '!-*-!-*-!-*-!-*-';
+    left: 38%;
+}
+h4 {
+    text-align: center;
+    position: relative;
+    color:white;
+    padding: 20px;
+    font-size: 32px;
+}
+
+h4::after {
+    position: absolute;
+    content: '*-*-*-*-*-*';
+}
+h4::before {
+    position: absolute;
+    content: '*-*-*-*-*-*';
+    left: 37.4%;
+}
+h3 {
+    text-align: center;
+    position: relative;
+    color:white;
+    padding: 20px;
+    font-size: 32px;
+}
+
+h3::after {
+    position: absolute;
+    content: '=-*-=-*-=-*-=';
+}
+h3::before {
+    position: absolute;
+    content: '=-*-=-*-=-*-=';
+    left: 34%;
+}
+
+
+.box{
+    width: 30%;
+    height: 500px;
+    background-color:rgb(255, 230, 190);
+    margin: 10px;
+    float: left;
+}
+.img1{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img2{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img3{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+p{
+    text-align: center;
+    padding: 25px 25px;
+}
+.img1:hover img{
+    transform: scale(1.5);
+}
+.img2:hover img{
+    transform: scale(0.4);
+}
+.img3:hover img{
+    transform: scale(2);
+}
+
+.box{
+    width: 30%;
+    height: 500px;
+    background-color:rgb(255, 230, 190);
+    margin: 10px;
+    float: left;
+}
+h1{
+    padding: 90px;
+    text-align: center;
+}
+.img4{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img5{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img6{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+p{
+    text-align: center;
+    padding: 25px 25px;
+}
+.img4:hover img{
+    transform: skew(-50deg);
+}
+.img5:hover img{
+    transform: skew(20deg);
+}
+.img6:hover img{
+    transform: skew(180deg);
+}
+
+
+.box{
+    width: 30%;
+    height: 500px;
+    background-color:rgb(255, 230, 190);
+    margin: 10px;
+    float: left;
+}
+h1{
+    padding: 90px;
+    text-align: center;
+}
+.img7{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img8{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img9{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+p{
+    text-align: center;
+    padding: 25px 25px;
+}
+.img7:hover img{
+    transform: rotate(50deg);
+}
+.img8:hover img{
+    transform: rotate(180deg);
+}
+.img9:hover img{
+    transform: rotate(-50deg);
+}
+
+
+.box{
+    width: 30%;
+    height: 500px;
+    background-color:rgb(255, 230, 190);
+    margin: 10px;
+    float: left;
+}
+h1{
+    padding: 90px;
+    text-align: center;
+}
+.img10{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img11{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.img12{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+p{
+    text-align: center;
+    padding: 25px 25px;
+}
+.img10:hover img{
+    transform:translatey(20%);
+}
+.img11:hover img{
+    transform: translatex(40%);
+}
+.img12:hover img{
+    transform:translatey(-30%);
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 25px ;
+    position: relative;
+    perspective: 500px;
+    float: left;
+}
+.front img{
+    background-size: cover;
+    border-radius: 40px;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(179, 179, 179);
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+.p{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+.card:hover .front{
+    transform: rotateY(-180deg);
+}
+.card:hover .back{
+    transform: rotateY(0deg);
+}
+
+
+
+
+
+
